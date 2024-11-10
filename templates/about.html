@@ -1,0 +1,25 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block title %}
+    <title>About</title>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+             <img class="rounded-circle imes" src="{% static 'images/link.png' %}" >
+        </div>
+        <div class="col-md-3">
+             <img class="rounded-circle imes" src="{% static 'images/imo.png' %}" >
+        </div>
+        <div class="col-md-3">
+             <img class="rounded-circle imes" src="{% static 'images/facebook.png' %}" >
+        </div>
+        <div class="col-md-3">
+            
+        </div>
+    </div>
+    </div>
+    <p> i created this on my free time</p>
+    <marquee class="text-danger" behavior="" direction="">when you start coding there is no going back</marquee>
+{% endblock %}
